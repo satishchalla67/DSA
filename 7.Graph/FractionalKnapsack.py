@@ -20,7 +20,8 @@ def fractionalKnapsack(arr,m):
             max_profit+=item.profit*(m/item.weight)
             break
     return max_profit
-        
+
+# Knapsack Problem: Selecting the best combination of items to fit in a container with a weight limit.
 M=37
 arr=[Item(25,5), Item(75,10), Item(100,12), Item(50,4), Item(45,7), Item(90,9), Item(30,3)]
 profit=fractionalKnapsack(arr,M)
